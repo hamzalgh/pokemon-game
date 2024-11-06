@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    text-transform: capitalize;
+    font-family: Arial, sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    border: 6px solid rgb(248, 255, 49);
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0);
+    background-color: rgb(255, 255, 90);
+}
+.card-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    margin-left: 25px;
+}
+.card-header span{
+    font-size: 8px;
+    font-weight: bolder;
+}
+.card-header i{
+    margin-left: 4px;
+    margin-bottom: 4px;
+    width: 16px;
+    text-align: center;
+    background: radial-gradient(circle, white 5%, rgb(255, 187, 0) 100%);
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+}
+#pokemonSprite{
+    object-fit: cover;
+    min-width: 150px;
+    height: 120px;
+    border: 3px solid rgb(192, 192, 192, 0.9);
+    border-radius: 4px;
+    background-color: rgb(167, 255, 254);
+    overflow: hidden;
+}
+.card-skills{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.card-skills b{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.card-interaction{
+    display: flex;
+    justify-content: space-between;
+}
+.card-interaction p{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
